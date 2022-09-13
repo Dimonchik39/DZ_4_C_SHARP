@@ -12,7 +12,7 @@ int Summ(int dig1)
 
 {
     int summ = 0;
-    for (int i = 0; i < dig1; i++)
+    for (int i = 0;dig1 > 0; i++)
     {
         summ = summ + dig1 % 10;
         dig1 = dig1 / 10;
