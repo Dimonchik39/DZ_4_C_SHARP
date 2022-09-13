@@ -11,10 +11,12 @@ int dig = Convert.ToInt32(Console.ReadLine());
 int Summ(int dig1)
 
 {
+    int dig2 = 0;
     int summ = 0;
     for (int i = 0;dig1 > 0; i++)
     {
-        summ = summ + dig1 % 10;
+        dig2 = dig1 % 10;
+        summ = summ + dig2;
         dig1 = dig1 / 10;
     }
     return summ;
